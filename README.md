@@ -3,7 +3,7 @@
 Proyek ini adalah chatbot web sederhana yang dibangun menggunakan:
 - **Frontend**: HTML + Vanilla JavaScript
 - **Backend**: Node.js + Express
-- **AI**: Google Gemini API (Gemini Pro)
+- **AI**: Google Gemini API https://aistudio.google.com/
 
 Chatbot ini dirancang agar terasa seperti **teman ngobrol yang asik, gaul, dan pintar**, cocok untuk pengguna yang ingin belajar atau bertanya dengan suasana santai tapi tetap informatif.
 
