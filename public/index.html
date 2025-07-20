@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-messages" id="chat-messages">
+            <!-- Initial greeting from the bot -->
+            <div class="message gemini-message">
+                <p>Hello! How can I help you today?</p>
+            </div>
+        </div>
+        <!-- Typing indicator for loading state -->
+        <div class="typing-indicator" id="typing-indicator" style="display: none;">
+            <span></span><span></span><span></span>
+        </div>
+        <form class="chat-form" id="chat-form">
+            <textarea placeholder="Type your message..." required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
